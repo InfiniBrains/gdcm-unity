@@ -7,7 +7,7 @@ using System;
 using System.Text;
 
 
-public class gdcm
+public class gdcmunity
 {
     private static string version;
     public static string Version
@@ -35,11 +35,11 @@ public class gdcm
     }
 
 #if UNITY_EDITOR
-	private const string libraryName = "gdcm";
+	private const string libraryName = "gdcmunity";
 #elif UNITY_IOS || UNITY_IPHONE || UNITY_WEBGL
 	private const string libraryName = "__Internal";
 #else
-    private const string libraryName = "gdcm";
+    private const string libraryName = "gdcmunity";
 #endif
 
     //Return plugin version.
@@ -68,12 +68,12 @@ public class gdcm
     [MonoPInvokeCallback(typeof(CallbackDelegate))]
     public static void Callback(int result)
     {
-        gdcmExample.Log(string.Format("The callback result is:{0}", result));
+        gdcmunityExample.Log(string.Format("The callback result is:{0}", result));
     }
 
     //WebGL specific javascript functions from PluginJS.jslib
 #if UNITY_WEBGL
-	const string WebGLPluginPrefix = "gdcm_";
+	const string WebGLPluginPrefix = "gdcmunity_";
 
     //Call window.confirm in the browser
     [DllImport("__Internal", EntryPoint = WebGLPluginPrefix + "confirm")]

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 217cced595db5e4fa9217e1aef5e68a7
+guid: b58563516f670843e8c1387a8ef3024d
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -19,16 +19,22 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
-      enabled: 0
+      enabled: 1
       settings:
+        BUILD_TYPE: Release
+        CPU: x86_64
         DefaultValueInitialized: true
+        OS: Linux
+        PLUGIN_BUILD_NUMBER: 1
+        PLUGIN_NAME: gdcmunity
+        PLUGIN_VERSION: 2.8.9.0
   - first:
-      Facebook: WebGL
+      Standalone: Linux64
     second:
       enabled: 1
       settings: {}
   - first:
-      WebGL: WebGL
+      Standalone: LinuxUniversal
     second:
       enabled: 1
       settings: {}

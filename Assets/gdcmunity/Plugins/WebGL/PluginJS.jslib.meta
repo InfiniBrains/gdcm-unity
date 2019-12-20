@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 13b06e517c8035918bbb92024d1751b3
+guid: 42dd1de8b621e921d8dcfee910392ee8
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -19,22 +19,16 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
-      enabled: 1
+      enabled: 0
       settings:
-        BUILD_TYPE: Release
-        CPU: x86_64
         DefaultValueInitialized: true
-        OS: Linux
-        PLUGIN_BUILD_NUMBER: 1
-        PLUGIN_NAME: gdcm
-        PLUGIN_VERSION: 2.8.9.0
   - first:
-      Standalone: Linux64
+      Facebook: WebGL
     second:
       enabled: 1
       settings: {}
   - first:
-      Standalone: LinuxUniversal
+      WebGL: WebGL
     second:
       enabled: 1
       settings: {}

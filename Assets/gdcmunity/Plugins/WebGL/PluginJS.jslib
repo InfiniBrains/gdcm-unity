@@ -1,5 +1,5 @@
 //A prefix to add to every function in the plugin
-const PluginPrefix = "gdcm_";
+const PluginPrefix = "gdcmunity_";
 
 //Plugin implementation
 var Plugin = {
