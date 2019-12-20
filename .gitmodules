@@ -1,3 +1,6 @@
 [submodule "Assets/NativePluginBuilder"]
 	path = Assets/NativePluginBuilder
 	url = https://github.com/InfiniBrains/NativePluginBuilder.git
+[submodule "Assets/gdcmunity/NativeSource~/Source/gdcm"]
+	path = Assets/gdcmunity/NativeSource~/Source/gdcm
+	url = https://github.com/malaterre/GDCM.git
