@@ -64,3 +64,7 @@ crashlytics-build.properties
 .idea/.idea.gdcm-unity/
 
 Assets/gdcm/NativeSource~/Build/
+
+Assets/gdcm/NativeSource~/.idea/
+
+Assets/gdcm/NativeSource~/cmake-build-debug/
